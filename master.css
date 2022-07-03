@@ -1,0 +1,134 @@
+/*ID - 18954180 
+	NAME - Joshua Chia 
+	Class - Thursday 14:00pm
+*/
+
+html
+{
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: white;
+    font-family: Verdana, Arial, Sans-serif;
+    font-size: 100%;
+}
+
+nav
+{
+	background-color: lightgray;
+	margin-bottom: 10px;
+	padding-bottom: 14px;
+	padding-right: 16px;
+	padding-top: 14px;
+	display: block;
+}
+
+nav a:hover
+{
+	background-color: rgb(83, 111, 157);
+	color: white;
+}
+
+nav a
+{
+	color: #000;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+h1
+{
+	font-size: 180%;
+}
+
+h2
+{
+	font-size: 120%;
+	font-family: Georgia;
+	color: rgb(83, 111, 157);
+}
+
+.img1
+{
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+	float: left;
+	display: block;
+}
+
+.img2
+{
+	padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+	float: right;
+	display: block;
+}
+
+.p4
+{
+	padding-top: 120px;
+}
+
+.caption
+{
+	font-style: italic;
+	padding-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+ul.equipment
+{
+	line-height: 2.0;
+}
+
+ol
+{
+	background-color: lightgray;
+	margin-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+th
+{
+	background-color:  silver;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+td
+{	
+
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	background-color: lightgray;
+	
+}
+
+ul > p
+{
+	font-style: italic;
+}
+
+blockquote > p::first-letter
+{
+	font-style: italic;
+	color: #ff0000;
+	font-size: 200%;
+}
+
+q > b
+{
+	color: rgb(83, 111, 157);
+}
